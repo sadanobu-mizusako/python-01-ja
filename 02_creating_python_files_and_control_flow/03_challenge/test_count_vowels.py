@@ -13,7 +13,7 @@ class TestFunction(unittest.TestCase):
 
             printed_output = mock_stdout.getvalue().strip()
 
-            expected_output = "Number of vowels:3"
+            expected_output = "Number of vowels: 3"
             self.assertEqual(printed_output, expected_output)
 
 
